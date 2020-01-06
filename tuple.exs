@@ -13,6 +13,10 @@ aluno = {"Leonardo Sancho", 7.5}
 #Lendo os valores de uma tupla
 #As posiçoes de uma tupla sempre começao com 0
 aluno = {"Leonardo Sancho", 7.5}
+
+#Indica o tamano da tupla
+tuple_size aluno
+
 elem(aluno,0)
 #O Valor que vai aparecer é "Leonardo Sancho", caso queira ver a nota é só mudar o valor do elemento
 elem(aluno,1)
@@ -21,5 +25,7 @@ elem(aluno,1)
 #Caso queira atualizar (ele não altera o valor criar uma outra tupla) o valor de uma tupla
 #Dai entra no conceito de imutabilidade!
 put_elem(aluno,1,5)
+
+{"livro", 10, true, :funciona?, 1.5} {"livro", 10, true, :funciona?, 1.5}
 
 
